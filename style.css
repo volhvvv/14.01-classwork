@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.page-wrapper {
+    margin: 0 60px;
+    background-color: #141414;
+}
+.header {
+    background: #141414;
+    width: 100%;
+    height: 727px;
+}
+
+.rectangle {
+    display: flex;
+    height: 68px;
+}
+.logo {
+    width: 326px;
+    height: 136px;
+    flex-shrink: 0;
+    background: #99823D;
+    position: relative;
+}
+
+.logo-img{
+    position: relative;
+    top: 43px;
+    left: 68px;
+    
+}
+.header-text {
+    display: flex;
+    margin: 26px 0px 26px 34px;
+    height: 17px;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+
+}
+
+.heart{
+    width: 17px;
+    height: 17px;
+    margin-left: 4px;
+}
+
+.block {
+    position: absolute;
+    width: 652px;
+    height: 659px;
+    flex-shrink: 0;
+    top: 68px;
+    right: 68px;
+}
+.white {
+    background-color: #fff;
+    width: 584px;
+    height: 455px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 68px;
+    right: 68px;
+    z-index: 2;
+
+}
+.another {
+    background-color: #99823D;
+    width: 584px;
+    height: 455px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 68px;
+    bottom: 0px;
+    z-index: 1;
+}
+
+.bottom-block {
+    width: 1000px;
+    height: 95px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 11px;
+}
+
+  
+nav {
+  position: absolute;
+  right: 68px;
+}
+
+ul {
+  display: flex;
+  width: 559px;
+  height: 33px;
+  padding-left: 3px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 37px;
+  flex-shrink: 0;
+}
+
+li a {
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 2.763px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.Architecture {
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.3px; /* 170% */
+}
+.Made {
+    color: #FFF;
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.3px; /* 153% */
+}
+
+.min-title {
+    color: #99823D;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.575px; /* 150.682% */
+    letter-spacing: 2.763px;
+    text-transform: uppercase;
+    margin: 67px 0px 0px 68px;
+}
+.title {
+    color: #141414;
+    font-family: Teko;
+    font-size: 67px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 67.031px; /* 100.046% */
+    text-transform: capitalize;
+    margin: 2px 0px 0px 68px;
+}
+
+.text{
+    font-size: 17px;
+    margin: 32px 0px 0px 68px;
+}
+
+.button{
+    display: flex;
+    margin-top: 15px;
+}
+
+.button button:nth-child(1) {
+    background: #99823D;
+    margin-left: 68px;
+    margin-right: 17px;
+}
+
+.button button:nth-child(2) {
+    background: #141414;
+    margin-right: 67px;
+}
+
+.button button{
+    width: 216px;
+    height: 68px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17.85px; /* 148.75% */
+    letter-spacing: 2.975px;
+    text-transform: uppercase;
+    border: none;
+}
+
+.bottom-block{
+    display: inline-flex;
+    height: 68px;
+    padding: 0px 343px 0px 3px;
+    align-items: flex-start;
+    gap: 37px;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.bottom-block p{
+    color: #000;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 68px; /* 566.667% */
+    letter-spacing: 2.975px;
+    text-transform: uppercase;
+}
+
